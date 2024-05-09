@@ -1,7 +1,7 @@
 # Stage 1: Build the application (slim base)
 FROM node:latest
 
-WORKDIR /home/radiocity_next/radiocity/
+WORKDIR /home/radiocity_next/my-app/
 
 COPY package*.json ./
 
